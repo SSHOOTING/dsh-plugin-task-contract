@@ -19,7 +19,13 @@ Requires Node `^22.19.0 || >=24` and DSH `>=0.2.0-rc.2 <0.3.0`.
 3. You get a compact, read-only report; use `/task-contract --json` for machine-readable output.
 
 ```text
-[task-contract] report — see --json for full data
+[task-contract] 0% contract signals found in 10 event(s)
+  Goal: pass: 3 files written
+  Non-goals: none stated — confirm before acting
+  Acceptance: no acceptance criteria — add at least one
+  Budget: unset — suggest a token/time cap
+  Risks: no deadline stated
+Edit this contract in chat before the agent proceeds.
 ```
 
 ## What it reads
